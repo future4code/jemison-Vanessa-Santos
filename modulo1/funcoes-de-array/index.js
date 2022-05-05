@@ -74,7 +74,7 @@ let cachorroPoodle = pets.filter((pet) => {
  })
  console.log(mensagem)
 
- //Dado o seguinte array de produtos, realize as operações pedidas nos itens abaixo utilizando as funções
+ // 2 Dado o seguinte array de produtos, realize as operações pedidas nos itens abaixo utilizando as funções
  // de array map e filter:
  const produtos = [
     { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
