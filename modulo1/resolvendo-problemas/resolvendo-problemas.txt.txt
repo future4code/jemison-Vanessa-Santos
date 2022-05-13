@@ -1,0 +1,32 @@
+Resolvendo Problemas!
+7 Passos para resolver problemas na programação!
+
+Exercícios de fixação do conhecimento
+Faça um resumo sobre quais são os 7 passos fundamentais para a resolução de problemas e 
+como eles podem nos ajudar a solucionar nossos desafios de programação...
+
+
+1. Ter Atenção no Enunciado
+Ler o enunciado com calma, várias vezes para poder entender. 
+Ler o enunciado até entender...
+
+2. Retirar Informações Relevantes
+Copiar o enunciado dos exercícios para o VS Code, ou quebra-lo em pequenas partes de informações 
+importantes, para facilitar a compreensão...
+
+3. Pensar nas Entradas e Saídas
+Pensar nas informações de entrada e saída do exercício, ir anotando essas informações para faciltar...
+
+4. Fazer Um Esquema Visual 
+Fazer um esquema no papel ou no proprio computador, fazer fluxograma, pensar nos possíveis cenários...
+
+5. Criar Um Código Feio
+Criar um código com as informações que acho estar correta, mesmo não funcionando, mas ir testando as possiveis
+soluções...
+
+6. Testar: Força-Bruta
+Testar soluçoes óbvias, escrever o código no nosso idioma e depois transformálo em código de fato...
+
+7. Refatorar
+Analisar todo o código novamente e nomear melhor as váriaveis. 
+Separar as funções de cada elemento...
