@@ -154,7 +154,7 @@ return pessoaNAutorizada
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-  
+  // Não cosegui fazer 
     
 }
 
@@ -171,5 +171,5 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-  
+   // Não cosegui fazer
 }
