@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+nav .logo{
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a{
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color: #e4e4e4;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.sub{
+    text-align: center;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.conteudo{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px
+}
+ul{
+    text-align: center;
+    font-size: 30px;
+}
+ 
+form{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-conteudo{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-conteudo p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #e4e4e4;
+    font-size: 1.2rem;
+}
+.social-list img{
+    max-width: 30px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
