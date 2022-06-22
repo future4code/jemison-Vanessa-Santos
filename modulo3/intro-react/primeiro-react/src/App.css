@@ -1,0 +1,33 @@
+.App{
+  background-color: violet;
+ 
+}
+.principal {
+  text-align: center;
+  align-items: center;
+  margin:15vh;
+  background-color:violet;
+
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  background-color: violet;
+}
+
+
+.vanessa.png{
+  width: 30vh;
+  background-color: violet;
+}
+.footer{
+ bottom: 0;
+ left: 0;
+ position: absolute;
+  width: 90%;
+  text-align: center;
+  background-color: violet;
+  font-size: 20px;
+}
+
