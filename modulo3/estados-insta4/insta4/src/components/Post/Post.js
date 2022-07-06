@@ -59,11 +59,17 @@ function Post(props) {
   const onClickComentario = () => {
     setComentando(!comentando)
     if (comentando) {
-      componenteComentario = <SecaoComentario aoEnviar={aoEnviarComentario} />
+      componenteComentario = <SecaoComentario valor={comentando} onChangeComentario={onChangeComentario} aoEnviar={aoEnviarComentario} />
     }
     console.log(comentando)
   }
 
+  const onChangeComentario = (event) =>{
+    setComentando(event.target.value)
+    console.log(event.target.value)
+
+  }
+  
   const aoEnviarComentario = () => {
     setComentando(false)
     setNumeroComentarios(numeroComentarios + 1)
@@ -71,26 +77,26 @@ function Post(props) {
 
   let iconeCurtida
 
-  if (curtido) {
-    iconeCurtida = iconeCoracaoPreto
-  } else {
-    iconeCurtida = iconeCoracaoBranco
-  }
+    if(curtido) {
+      iconeCurtida = iconeCoracaoPreto
+    } else {
+      iconeCurtida = iconeCoracaoBranco
+    }
 
-  let componenteComentario
+    let componenteComentario
 
-  if (comentando) {
-    componenteComentario = <SecaoComentario aoEnviar={aoEnviarComentario} />
-  }
+    if(comentando) {
+      componenteComentario = <SecaoComentario aoEnviar={aoEnviarComentario}/>
+    }
 
-  return (
+  return(
     <PostContainer>
       <PostHeader>
-        <UserPhoto src={props.fotoUsuario} alt={'Imagem do usuario'} />
+        <UserPhoto src={props.fotoUsuario} alt={'Imagem do usuario'}/>
         <p>{props.nomeUsuario}</p>
       </PostHeader>
 
-      <PostPhoto src={props.fotoPost} alt={'Imagem do post'} />
+      <PostPhoto src={props.fotoPost} alt={'Imagem do post'}/>
 
       <PostFooter>
         <IconeComContador
@@ -111,4 +117,4 @@ function Post(props) {
 }
 
 
-export default Post 
+export default Post
